@@ -1,0 +1,35 @@
+.btn {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+/* Action colors */
+.btn.create {
+  background: #2ea043; /* green */
+}
+
+.btn.clear {
+  background: #f2c94c; /* yellow */
+  color: #333;
+}
+
+.btn.refresh {
+  background: #56ccf2; /* light blue */
+}
+
+.btn.edit {
+  background: #f2994a; /* orange */
+}
+
+.btn.delete {
+  background: #eb5757; /* red */
+}
+
+/* Small hover polish */
+.btn:hover {
+  opacity: 0.9;
+}

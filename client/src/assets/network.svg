@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#2f6bff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#fade)"/>
+
+  <g fill="none" stroke="#2f6bff" stroke-opacity="0.20" stroke-width="1">
+    <path d="M120 150 C260 70, 420 80, 560 170 S860 280, 1100 120" />
+    <path d="M80 320 C260 220, 420 210, 600 320 S900 440, 1120 300" />
+    <path d="M180 520 C320 430, 520 420, 700 530 S960 650, 1150 520" />
+  </g>
+
+  <g fill="#2f6bff" fill-opacity="0.25">
+    <circle cx="120" cy="150" r="5"/>
+    <circle cx="310" cy="95" r="4"/>
+    <circle cx="560" cy="170" r="6"/>
+    <circle cx="760" cy="240" r="4"/>
+    <circle cx="920" cy="210" r="5"/>
+    <circle cx="1100" cy="120" r="6"/>
+
+    <circle cx="80" cy="320" r="5"/>
+    <circle cx="260" cy="240" r="4"/>
+    <circle cx="600" cy="320" r="6"/>
+    <circle cx="820" cy="390" r="4"/>
+    <circle cx="1120" cy="300" r="6"/>
+
+    <circle cx="180" cy="520" r="5"/>
+    <circle cx="420" cy="450" r="4"/>
+    <circle cx="700" cy="530" r="6"/>
+    <circle cx="960" cy="630" r="4"/>
+    <circle cx="1150" cy="520" r="6"/>
+  </g>
+</svg>
