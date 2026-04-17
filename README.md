@@ -37,9 +37,9 @@ Backend:
 ## How to Run
 
 ### Server
--cd server
--npm install
--npm run dev
+- cd server
+- npm install
+- npm run dev
 
 ### Client
 cd client
